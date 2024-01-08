@@ -1,0 +1,358 @@
+        /* All shared style */
+        
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Open+Sans:wght@400;700;800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Open+Sans:wght@400;700;800&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Merriweather', serif;
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .container {
+            width: 85%;
+            max-width: 1550px;
+            margin: 25px auto;
+        }
+        
+        .important {
+            color: #F00;
+        }
+        /* banner section */
+        
+        .banner {
+            position: relative;
+            height: 400px;
+            /* float: left; */
+            width: 100%;
+        }
+        
+        .banner .banner-img {
+            width: 100%;
+            height: 600px;
+            filter: brightness(50%);
+        }
+        
+        .banner .banner-text {
+            max-width: 632px;
+            text-align: center;
+            margin: auto;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+        
+        .banner .banner-text .ban-text-h3 {
+            color: #FFF;
+            text-align: center;
+            font-family: Merriweather;
+            font-size: 32px;
+            font-weight: 400;
+            padding-top: 160px;
+        }
+        
+        .banner .banner-text .ban-text-h2 {
+            color: #FFF;
+            text-align: center;
+            font-family: Merriweather;
+            font-size: 72px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 95px;
+        }
+        /* Discount Section */
+        
+        #Discount {
+            padding: 225px 0 0 0;
+        }
+        
+        #Discount .Discount-text {
+            text-align: center;
+        }
+        
+        #Discount .Discount-text h1 {
+            color: #F00;
+            text-align: center;
+            font-family: Inter;
+            font-size: 88px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        
+        #Discount .Discount-text h3 {
+            color: #F00;
+            text-align: center;
+            font-family: Inter;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            margin: 30px 0 16px 0;
+        }
+        
+        #Discount .Discount-text h2 {
+            color: #070211;
+            text-align: center;
+            font-family: Inter;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        
+        #Discount .Dis-img {
+            justify-content: center;
+            display: flex;
+            margin-top: 25px;
+        }
+        
+        #Discount .Dis-img .Discount-img {
+            width: 650px;
+            height: 400px;
+        }
+        /* Party Section */
+        
+        .party {
+            background: linear-gradient(80deg, #070211 0%, rgba(7, 2, 17, 0)100%), url('../Assets/Vectorrr.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 550px;
+            display: flex;
+            justify-content: space-around;
+            margin-top: 100px;
+            align-items: center;
+        }
+        
+        .party .party-text {
+            max-width: 600px;
+            padding: 0 0 20px 50px;
+        }
+        
+        .party .party-text h2 {
+            color: #FFF;
+            font-family: Merriweather;
+            font-size: 50px;
+            font-style: normal;
+            font-weight: 900;
+            padding-bottom: 18px;
+        }
+        
+        .party .party-text p {
+            color: rgba(255, 255, 255, 0.80);
+            font-family: Inter;
+            font-size: 18px;
+            font-weight: 400;
+            padding-bottom: 18px;
+        }
+        
+        .party .party-btn {
+            color: #FFF;
+            text-align: center;
+            font-family: Inter;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            text-transform: uppercase;
+        }
+        
+        .party button {
+            border: none;
+            background: none;
+            cursor: pointer;
+        }
+        
+        .party .party-img img {
+            width: 250px;
+            height: 350px;
+            padding: 70px;
+        }
+        /* Event Section */
+        
+        #Event {
+            margin: 70px 0;
+        }
+        
+        #Event .Event-text {
+            padding: 100px 0;
+            text-align: center;
+            background: linear-gradient(rgb(255, 204, 209), white);
+        }
+        
+        #Event .Event-text h2 {
+            text-align: center;
+            font-family: Inter;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 56px;
+            text-transform: capitalize;
+        }
+        
+        #Event .Event-text button {
+            border-radius: 8px;
+            border: none;
+            background: #F00;
+            padding: 16px 32px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            margin-top: 48px;
+            cursor: pointer;
+        }
+        
+        #Event .Event-text button h3 {
+            color: #FFF;
+            text-align: center;
+            font-family: Inter;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-transform: uppercase;
+        }
+        /* coming soon section */
+        
+        .coming {
+            display: flex;
+            align-items: center;
+        }
+        
+        .coming .coming-text,
+        .coming-info {
+            width: 100%;
+            padding: 0 60px;
+        }
+        
+        .coming .coming-text h3 {
+            color: #F00;
+            font-family: Inter;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+        
+        .coming .coming-text h2 {
+            color: #070211;
+            font-family: Merriweather;
+            font-size: 42px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: normal;
+            margin: 16px 0 0 0;
+        }
+        
+        .coming .coming-info h2 {
+            color: #F00;
+            font-family: Inter;
+            font-size: 42px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        
+        .coming p {
+            color: rgba(7, 2, 17, 0.60);
+            font-family: Inter;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 25px;
+            margin: 22px 0px;
+        }
+        
+        .coming .coming-img img {
+            width: 300px;
+            height: 300px;
+            padding: 20px;
+        }
+        
+        .coming .coming-img {
+            border: 15px solid;
+            border-radius: 100%;
+            color: rgb(243, 20, 20);
+        }
+        /* Holiday section */
+        
+        #holiday {
+            margin: 150px 0 80px 0;
+            align-items: center;
+        }
+        
+        #holiday .holiday-text {
+            text-align: center;
+        }
+        
+        #holiday .holiday-text h1 {
+            text-align: center;
+            font-family: Merriweather;
+            font-size: 65px;
+            font-weight: 900;
+            margin: 15px 0;
+        }
+        
+        #holiday .holiday-text p {
+            color: rgba(7, 2, 17, 0.60);
+            text-align: center;
+            font-family: Inter;
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 32px;
+            padding: 0 80px;
+        }
+        /* portfolio section */
+        
+        #portfolio .portfolio-text h3 {
+            color: #F00;
+            font-family: Inter;
+            font-size: 24px;
+            font-weight: 500;
+        }
+        
+        #portfolio .portfolio-text h1 {
+            color: #070211;
+            font-family: Merriweather;
+            font-size: 42px;
+            font-weight: 900;
+        }
+        
+        #portfolio .portfolio-text p {
+            color: rgba(7, 2, 17, 0.60);
+            font-family: Inter;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 25px;
+            width: 800px;
+            margin: 18px 0 40px 0;
+        }
+        
+        #portfolio .portfolio-img .portfolio-img1,
+        .portfolio-img2 {
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 20px;
+        }
+        
+        #portfolio .portfolio-img img {
+            width: 355px;
+            height: 400px;
+        }
+        /* Subscribe Section */
+        
+        .subscribe {
+            background: rgba(255, 0, 0, 0.05);
+            border-radius: 16px;
+        }
+        
+        .subscribe .subscribe-img {
+            margin: 80px 0 0 0;
+        }
+        
+        .subscribe .subscribe-text {
+            text-align: center;
+        }
