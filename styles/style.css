@@ -308,27 +308,41 @@
         }
         
         #holiday .holiday-content {
-            height: 650px;
+            padding: 150px 0 20px 0;
         }
         
-        #holiday .holiday-content .holiday-img {
+        #holiday .holiday-content {
             background-image: url('../Assets/Rectangle\ 2.png');
             background-position: bottom;
             background-repeat: no-repeat;
+            padding-top: 100px;
+        }
+        
+        #holiday .holiday-content .holiday-img {
+            background-image: url('../Assets/Group\ 44.png');
+            background-position: 75% 25%;
+            background-repeat: no-repeat;
             display: flex;
+            justify-content: space-between;
         }
         
         #holiday .holiday-img .women {
-            width: 429px;
-            height: 433px;
-            position: relative;
-            bottom: 120px;
+            width: 350px;
+            height: 375px;
+            padding-bottom: 200px;
+            z-index: -1;
         }
         
         #holiday .holiday-img .box {
-            width: 429px;
-            height: 433px;
-            position: relative;
+            width: 450px;
+            height: 475px;
+            padding: 90px 0 0 100px;
+        }
+        
+        #holiday .holiday-img .dis-circle {
+            width: 400px;
+            height: 400px;
+            z-index: -1;
         }
         /* portfolio section */
         
