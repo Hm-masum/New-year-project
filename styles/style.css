@@ -296,16 +296,45 @@
             margin: 15px 0;
         }
         
-        #holiday .holiday-text p {
+        #holiday .holiday-text p,
+        .subscribe .subscribe-text p {
             color: rgba(7, 2, 17, 0.60);
             text-align: center;
             font-family: Inter;
             font-size: 15px;
             font-weight: 500;
-            line-height: 32px;
+            line-height: 25px;
             padding: 0 80px;
         }
+        
+        #holiday .holiday-content {
+            height: 650px;
+        }
+        
+        #holiday .holiday-content .holiday-img {
+            background-image: url('../Assets/Rectangle\ 2.png');
+            background-position: bottom;
+            background-repeat: no-repeat;
+            display: flex;
+        }
+        
+        #holiday .holiday-img .women {
+            width: 429px;
+            height: 433px;
+            position: relative;
+            bottom: 120px;
+        }
+        
+        #holiday .holiday-img .box {
+            width: 429px;
+            height: 433px;
+            position: relative;
+        }
         /* portfolio section */
+        
+        #portfolio {
+            margin: 80px 0;
+        }
         
         #portfolio .portfolio-text h3 {
             color: #F00;
@@ -347,12 +376,104 @@
         .subscribe {
             background: rgba(255, 0, 0, 0.05);
             border-radius: 16px;
+            padding: 100px 0;
+            align-items: center;
+            margin-bottom: 100px;
         }
         
         .subscribe .subscribe-img {
-            margin: 80px 0 0 0;
+            justify-content: center;
+            display: flex;
         }
         
         .subscribe .subscribe-text {
             text-align: center;
+        }
+        
+        .subscribe .subscribe-text h1 {
+            color: #070211;
+            font-family: Merriweather;
+            font-size: 35px;
+            font-weight: 900;
+            text-transform: capitalize;
+            margin: 15px 0;
+        }
+        
+        .subscribe .from {
+            max-width: 800px;
+            margin: 20px auto;
+            display: flex;
+            gap: 10px;
+        }
+        
+        .subscribe .from input {
+            flex-grow: 2;
+            border: none;
+            border-radius: 8px;
+            padding: 10px 20PX;
+            font-size: 20px;
+        }
+        
+        .subscribe .from button {
+            background: #F00;
+            border-radius: 8px;
+            color: white;
+            border: none;
+            font-size: 20px;
+            padding: 15px 28px;
+            cursor: pointer;
+        }
+        /* Footer Section */
+        
+        #footer {
+            background: #070211;
+            height: 500px;
+            flex-shrink: 0;
+        }
+        
+        #footer .social-link {
+            text-align: center;
+        }
+        
+        #footer .footer-text {
+            padding-top: 100px;
+        }
+        
+        #footer .footer-text,
+        .copyright {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        #footer .footer-text .contact .contact-phone,
+        .contact-web {
+            display: flex;
+        }
+        
+        #footer h3 {
+            color: #FFF;
+            font-family: Inter;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 40px;
+            max-width: 375px;
+        }
+        
+        #footer hr {
+            color: #F00;
+            margin: 30px 0;
+            border-color: #070211;
+        }
+        
+        #footer button {
+            border: none;
+            background: none;
+            cursor: pointer;
+        }
+        
+        #footer .social-link img {
+            width: 60px;
+            height: 60px;
+            padding: 0 10px;
         }
