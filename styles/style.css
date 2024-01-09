@@ -414,23 +414,23 @@
         }
         
         .subscribe .from {
-            max-width: 800px;
+            max-width: 700px;
             margin: 20px auto;
             display: flex;
-            gap: 10px;
         }
         
         .subscribe .from input {
             flex-grow: 2;
             border: none;
-            border-radius: 8px;
-            padding: 10px 20PX;
+            border-radius: 150px 0px 0px 150px;
+            border-end-start-radius: 150px;
+            padding: 15px 28px;
             font-size: 20px;
         }
         
         .subscribe .from button {
             background: #F00;
-            border-radius: 8px;
+            border-radius: 0px 150px 150px 0px;
             color: white;
             border: none;
             font-size: 20px;
